@@ -1,3 +1,10 @@
 #!/usr/bin/env node
 
-console.log(require('..')());
+(async () => {
+  try {
+    console.log(await require('..')());
+  } catch (err) {
+    console.error(err);
+  }
+})();
+
