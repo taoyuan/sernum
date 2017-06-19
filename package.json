@@ -1,0 +1,33 @@
+{
+  "name": "sernum",
+  "version": "0.1.0",
+  "description": "Reads the machine's serial number",
+  "license": "MIT",
+  "repository": "taoyuan/sernum",
+  "author": {
+    "name": "Yuan Tao",
+    "email": "towyuan@outlook.com",
+    "url": "github.com/taoyuan"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "sernum",
+    "serial",
+    "number",
+    "sn",
+    "raspberrypi",
+    "pi",
+    "rpi",
+    "raspi",
+    "node"
+  ],
+  "bin": {
+    "sernum": "bin/sernum.js"
+  },
+  "scripts": {
+    "postinstall": "node setup.js"
+  },
+  "dependencies": {}
+}
