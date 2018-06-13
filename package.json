@@ -1,6 +1,6 @@
 {
   "name": "sernum",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Reads the machine's serial number",
   "license": "MIT",
   "repository": "taoyuan/sernum",
@@ -27,6 +27,11 @@
     "sernum": "bin/sernum.js"
   },
   "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "bin",
+    "setup.js"
+  ],
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm run clean && echo Using TypeScript && tsc --version && tsc --pretty",
