@@ -24,6 +24,7 @@
     "node"
   ],
   "bin": {
+    "sn": "bin/sernum.js",
     "sernum": "bin/sernum.js"
   },
   "main": "./lib/index.js",
@@ -38,7 +39,9 @@
     "prepublish": "npm run build",
     "postinstall": "node setup.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "getmac": "^1.4.6"
+  },
   "devDependencies": {
     "@types/node": "^10.3.2",
     "rimraf": "^2.6.2",
