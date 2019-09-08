@@ -1,4 +1,4 @@
-# sernum [![Build Status](https://travis-ci.org/taoyuan/sernum.svg?branch=master)](https://travis-ci.org/taoyuan/sernum)
+# sernum [![Build Status](https://travis-ci.org/taoyuan/sernum.svg?branch=master)](https://travis-ci.org/taoyuan/sernum) [![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/sernum.svg)](https://greenkeeper.io/)
 
 > Reads the machine's serial number. Supports Linux, Mac (OS X), Windows, and FreeBSD.
 
